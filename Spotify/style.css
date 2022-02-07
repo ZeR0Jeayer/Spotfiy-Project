@@ -1,0 +1,159 @@
+@import url(//db.onlinewebfonts.com/c/01173b246d9d9ea808ea75a26b3b61bb?family=Circular+Spotify+Tx+T+Black);
+
+/* colors 
+azuis: #5b95db;
+#2e77d0;
+
+verde:  
+#1ed760;
+
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Circular Spotify Tx T Black";
+    box-sizing: border-box;
+}
+
+body {
+   font-family: "Circular Spotify Tx T Black";
+   color: #1ED760;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10;
+    list-style: none;
+    gap: 20;
+}
+
+.logoc {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.navegacao-topo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10;
+    list-style: none;
+    gap: 20px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.navegacao-topo .list {
+    display: flex;
+    cursor: pointer;
+    gap: 25px;
+    list-style: none;
+}
+
+.navegacao-topo .list a {
+    text-decoration: none;
+    color:  white;
+}
+
+ul.list a.link{
+    list-style: none;
+}
+
+ul.list:link:hover {
+    color: #1ED760;
+}
+
+main {
+    background: linear-gradient(rgb(41, 65, 171), rgb(41, 65, 171)), url(/img/bursts-tablet.svg);
+    /*background-color: rgb(41, 65, 171);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+    width: 1350px;
+}
+
+.centro {
+ /*  background-image: url(/img/bursts-tablet.png); */
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    width: 850px;
+    font-size: 7rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 7rem;
+    font-size: 20px;
+    color: #1ED760;
+}
+/*================BOTOES====================  */
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    background-color: #1ED760;
+    color: rgb(41, 65, 171);
+    width: 190px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 30px; 
+}
+
+/*==================END=======================*/
+
+.logof {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.baixo {
+    background-color: rgb(12, 12, 12);
+    width: 1350px;
+    height: 400px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navegacao-baixo a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    gap: 20px;
+}
